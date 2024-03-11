@@ -6,7 +6,6 @@ import envLoader from './env_loader';
 /**
  * It represents the MongoDB client
  */
-
 class DBClient {
   /**
    * It creates a new DBClient instance.

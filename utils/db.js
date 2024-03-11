@@ -35,6 +35,7 @@ class DBClient {
   async nbUsers() {
     return this.client.db().collection('users').countDocuments();
   }
+
   /**
    * It gets the number of files in the database.
    */
